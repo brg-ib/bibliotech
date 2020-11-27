@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ynov.bibliotech.com",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "bibliotech",
+    "packageName": "com.ynov.bibliotech.com",
+    "packageFolder": "com/ynov/bibliotech/com",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZGUxNDdiNGU5MTY4NDllMDY2YjNlYmFhNTQ2M2Q0OWJkOTViNjYyNjhlZTRmZmQ2ODFjYzMzZTAzZjRiZmVlNmRmOGVkZTBmYzczZTg4NDA1NTIwNWZhNjc3MTljZmMyNjNlNTY2NzdkOTE0YTY1YWNjZDgwMTdiZjMzNmNlYTU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "materia",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1606488961267,
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr", "en"],
+    "blueprints": []
+  }
+}

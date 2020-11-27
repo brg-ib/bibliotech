@@ -48,6 +48,19 @@ public class CacheConfiguration {
             createCache(cm, com.ynov.bibliotech.com.domain.User.class.getName());
             createCache(cm, com.ynov.bibliotech.com.domain.Authority.class.getName());
             createCache(cm, com.ynov.bibliotech.com.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.ynov.bibliotech.com.domain.Livre.class.getName());
+            createCache(cm, com.ynov.bibliotech.com.domain.Livre.class.getName() + ".auteurs");
+            createCache(cm, com.ynov.bibliotech.com.domain.Livre.class.getName() + ".themes");
+            createCache(cm, com.ynov.bibliotech.com.domain.Livre.class.getName() + ".emplacements");
+            createCache(cm, com.ynov.bibliotech.com.domain.Utilisateur.class.getName());
+            createCache(cm, com.ynov.bibliotech.com.domain.Auteur.class.getName());
+            createCache(cm, com.ynov.bibliotech.com.domain.Auteur.class.getName() + ".livres");
+            createCache(cm, com.ynov.bibliotech.com.domain.Emplacement.class.getName());
+            createCache(cm, com.ynov.bibliotech.com.domain.Emplacement.class.getName() + ".livres");
+            createCache(cm, com.ynov.bibliotech.com.domain.Theme.class.getName());
+            createCache(cm, com.ynov.bibliotech.com.domain.Theme.class.getName() + ".livres");
+            createCache(cm, com.ynov.bibliotech.com.domain.Exemplaire.class.getName());
+            createCache(cm, com.ynov.bibliotech.com.domain.Emprunt.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

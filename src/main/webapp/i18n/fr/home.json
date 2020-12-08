@@ -1,19 +1,17 @@
 {
   "home": {
-    "title": "Bienvenue, Java Hipster !",
-    "subtitle": "Ceci est votre page d'accueil",
+    "title": "Bienvenue sur BiblioTech'Air",
+    "subtitle": "La bibliotheque 2.0",
     "logged": {
-      "message": "Vous êtes connecté en tant que \"{{username}}\"."
+      "message": "Bonjour, [<strong>{{username}}</strong>] !"
     },
-    "question": "Si vous avez des questions à propos de JHipster :",
+    "question": "Votre accès au site:",
     "link": {
-      "homepage": "Page d'accueil de JHipster",
-      "stackoverflow": "JHipster sur Stack Overflow",
-      "bugtracker": "JHipster bug tracker",
-      "chat": "JHipster public chat room",
-      "follow": "Suivez @jhipster sur Twitter"
+      "homepage": "Page d'accueil",
+      "stackoverflow": "Liste des livres disponibles",
+      "bugtracker": "Liste des livres empruntés"
     },
-    "like": "Si vous aimez JHipster, donnez nous une étoile sur",
+    "like": "Si vous aimez notre projet, donnez nous une étoile sur",
     "github": "GitHub "
   }
 }

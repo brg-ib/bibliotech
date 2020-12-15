@@ -19,6 +19,13 @@
 
     <!-- jhipster-needle-distribution-management -->
 
+    <!-- Sonar config-->
+    <properties>
+        <sonar.projectKey>brg-ib_bibliotech</sonar.projectKey>
+        <sonar.organization>bibliotech</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
+    
     <properties>
         <!-- Build properties -->
         <maven.version>3.3.9</maven.version>
